@@ -1,0 +1,170 @@
+body {
+	width:1349px;
+	margin:0 auto;
+}
+.clear {
+	clear:both;
+}
+img {
+	float:left;
+	width:50px;
+	height:50px;
+	padding: 20px 10px 10px 10px;
+	margin:0;
+}
+
+#logo {
+	font: Times New Roman;
+	font-size:40px;
+	padding: 5px 0px 10px 10px;
+	color:grey;
+	float:left;
+	margin:0;
+	width:250px;
+	margin-right:50px;
+	margin-top:10px;
+}
+
+#menu ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+#menu ul li {
+	width:150px;
+	height:50px;
+	float:left;
+	padding: 30px 10px 10px 0px;
+	text-align:center;
+}
+
+
+#menu ul li:hover, #menu ul li a:hover{
+	background-color:grey;
+	color:white;
+}
+
+#menu ul li a{
+	width:150px;
+	height:50px;
+	text-decoration:none;
+	color:grey;
+	margin-top:40px;
+}
+
+#smile {
+	color:grey;
+	background: url('smile.jpg') no-repeat;
+	background-size:cover;
+	width:1349px;
+	height:500px;
+	margin:0;
+	padding:0;
+}
+
+#smile form {
+	padding-top:140px;
+	padding-left:90px;
+	color:teal;
+}
+#smile form h1{
+	padding-bottom:0px;
+	margin-bottom:0;
+}
+#smile form h3{
+	padding-left:30px;
+	padding-top:10px;
+	margin-top:0;
+}
+#smile form input {
+	margin-left:60px;
+	width: 260px;
+	height:60px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	font:bold;
+	font-size:15px;
+	background-color:teal;
+	padding:5px;
+}
+
+#newpatient{
+	height:220px;
+	background-color:#C0BCBC;
+	color:white;
+	text-align:center;
+	padding:10px;
+}
+#newpatient p {
+	text-align:center;
+}
+#newpatient h2 {
+	margin-bottom:8px;
+}
+
+#main1,#main2,#main3{
+	color:grey;
+	border: 1px solid grey;
+	margin-left:80px;
+	margin-top:30px;
+	margin-bottom:30px;
+	float:left;
+	width:300px;
+	height:380px;
+	padding:15px;
+}
+#main1 {
+	margin-left:95px;
+}
+#last {
+	margin-bottom:0px;
+}
+#last ul {
+	background-color:#C0BCBC;
+	height:100px;
+	border-bottom:10px solid teal;
+	list-style:none;
+	margin:0;
+	padding:0;
+	padding-left:150px;
+}
+#last ul li a{
+	text-decoration:none;
+	list-style:none;
+	float:left;
+	padding-top:30px;
+	margin:0px 15px 0px 15px;
+	color:teal;
+}
+#last p{
+	padding-left:1000px;
+	text-align:center-right;
+	color:white;
+	background-color:teal;
+	margin:0px;
+	padding-bottom:4px;
+}
+
+@media screen and (max-width:1339px) {
+	#logo{
+		width:4%;
+	}
+	img{
+		width:4%;
+	}
+	#main ul li{
+		width:10%
+	}
+	#smile{
+		width:100%;
+	}
+	#main1, #main2, #main3 {
+		width:24%;
+	}
+	#last{
+		100%;
+	}
+}
+	

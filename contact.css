@@ -1,0 +1,53 @@
+#contact {
+	height:180px;
+	color:white;
+	background-color:#C0BCBC;
+	text-align:center;
+	font-size:50px;
+	padding-top:130px;
+}
+
+#new{
+	height:300px;
+	text-align:center;
+	padding:10px;
+}
+#new p {
+	text-align:center;
+}
+#new h2 {
+	margin-bottom:8px;
+}
+
+#mid {
+	height:190px;
+	background-color:teal;
+	text-align:center;
+	padding-top:30px;
+	color:white;
+	
+}
+
+form{
+	padding-top:80px;
+	height:550px;
+	margin:19px 400px;
+	color:grey;
+}
+form #name ,form #email, form #phone, form #msg{
+	margin-top:10px;
+	margin-bottom:20px;
+	width:300px;
+}
+form #msg{
+	height:150px;
+}
+form #submit{
+	background-color:teal;
+	color:white;
+	width:100px;
+	height:80px;
+	margin:40px;
+	font-size:20px;
+}
+	

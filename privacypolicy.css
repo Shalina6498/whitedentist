@@ -1,0 +1,10 @@
+/* privacy policy */
+#content h1{
+	text-align:center;
+	
+}
+#content h2, p, h3{
+	padding-left:200px;
+	padding-right:200px;
+	text-align:left;
+}

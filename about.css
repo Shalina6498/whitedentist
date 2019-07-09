@@ -1,0 +1,31 @@
+#about {
+	height:180px;
+	color:white;
+	background-color:#C0BCBC;
+	text-align:center;
+	font-size:50px;
+	padding-top:130px;
+}
+
+#drpatel {
+	padding-left:100px;
+	padding-right:100px;
+	padding-bottom:20px;
+}
+
+h2#team{
+	text-align:center;
+}
+
+#team1 ul{
+	list-style:none;
+	padding-left:280px;
+	padding-bottom:40px;
+}
+#team1 ul li{
+	width:200px;
+	height:200px;
+	background-color:teal;
+	float:left;
+	margin:30px;
+}
